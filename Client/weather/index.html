@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>WEATHER APP</title>
+  </head>
+  <body>
+    <!-- <nav class="navbar" style="display: flex;"> -->
+      <ul class="menu-items" style="display: flex; justify-content: space-around; align-items: center; padding: 15px;">
+        <h3>Whipi Weather</h3>
+           <li style="list-style: none;"><button class="profileBtn" style="background-color: transparent;"><a href="../login.html" > <i class="fa-solid fa-user fa-2xl"></i></a><span id="my-email"></span></button></li>
+
+      </ul>
+    <!-- </nav> -->
+    <section>
+    <div class="container">
+      <div class="search-box">
+          <i class="fa-solid fa-location-dot"></i>
+          <input id="search-text" type="text" placeholder="Enter your location">
+          <button class="fa-solid fa-magnifying-glass" id="submit"></button>
+      </div>
+      <br>
+      <div class="parent_of_search-result1">
+      <div class="search-result1" id="search-result1"></div>
+    </div>
+
+      <div class="weather-box">
+          <img src="">
+          <p class="temperature"></p>
+          <p class="description"></p>
+      </div>
+
+      <div class="weather-details">
+          
+        <div class="humidity">
+            <p>Humidity</p>
+              <div class="text">
+                  <span></span>
+                  <div id="humidity1"></div>
+              </div>
+          </div>
+          <br>
+
+          <div class="wind1">
+            <p>Wind Speed</p>
+              <div class="text">
+                  <span></span>
+                  <div id="wind1"></div>
+              </div>
+          </div>
+          <br>
+
+          <div class="minMaxtemp">
+            <p>Min. Temp</p>
+              <div class="text">
+                  <span></span>
+                  <div id="mintemp1"></div>
+              </div>
+          </div>
+          <br>
+          <div class="minMaxtemp">
+          <p>Max. Temp</p>
+          <div class="text">
+              <span></span>
+              <div id="maxtemp1"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <p id="temp"></p>
+      
+      <div id="search-result"></div>
+  </div>
+</section>
+<!-- 
+  <div>
+    <li>Temperature is <span id="temp"></span></li>
+    <li>Temperature Feels Like is <span id="temp">feels_like</span></li>
+    <li>Cloud Point Transformation <span id="cloud_pct"></span></li>
+    <li>Humidity is <span id="humidity"></span></li>  
+  </div> -->
+
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+	<script src="./script.js"></script>
+  </body>
+</html>

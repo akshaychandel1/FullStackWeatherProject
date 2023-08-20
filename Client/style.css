@@ -1,0 +1,134 @@
+*{
+    margin: 0;padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+ h1{
+     text-align:center;
+     
+ }
+ /* body{
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+    width: 100vw;
+ } */
+.login{
+    width: 382px;
+    margin: auto;
+    padding: 0px;
+    background-color: rgb( #D4145A,#FBB03B);
+    border-radius: 15px;
+}
+label{
+    font-size: 17px;
+    font-family: Helvetica, sans-serif;
+}
+#fname{
+    width: 300px;
+    height: 30px;
+    padding-left: 2px;   
+    border-radius: 10px;
+    border: none;
+    transition: transform 0.5s;
+    background: rgb(228, 228, 228);
+}
+#lname{
+    width: 300px;
+    height: 30px;
+    padding-left: 2px;   
+    border-radius: 10px;
+    border: none;
+    transition: transform 0.5s;
+    background: rgb(228, 228, 228);
+}
+#email{
+    width: 300px;
+    height: 30px;
+    padding-left: 2px;   
+    border-radius: 10px;
+    border: none;
+    transition: transform 0.5s;
+    background: rgb(228, 228, 228);
+}
+/* #username:hover{
+    transform: translateY(-10px);
+} */
+#pwd{
+    width: 300px;
+    height: 30px;
+    padding-left: 6px;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.5s;
+    background: rgb(228, 228, 228);
+}
+/* #password:hover{
+    transform: translateY(-10PX);
+} */
+#btn{
+    width: 300px;
+    height: 30px;
+    padding-left: 1px;    
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: black;
+    transition: transform 0.5s;
+}
+#loginbtn{
+    width: 300px;
+    height: 30px;
+    padding-left: 1px;    
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: black;
+    transition: transform 0.5s;
+}
+/* #submit:hover{
+    transform: translateY(-10PX);
+
+} */
+.checkbox{
+
+    width: 300px;
+    height: 30px;
+    padding-left: 1px;    
+    border: none;
+    border-radius: 10px;
+}
+span{
+    font-size: 17px;
+}
+a{
+    color: black;
+}
+ img{
+     padding: 0%;
+     margin: 0%;
+     border-radius: 50;
+    margin-bottom: 20px;
+ }
+ .sub{
+    padding: 25px;
+    text-align: center;
+    /* transition: transform 0.5s; */
+}
+/* .sub:hover{
+    transform: translateY(-10px);
+} */
+  
+  
+/* @media screen and (max-width: 992px) {
+    body {
+        position: relative;
+        background: #fff;
+        overflow: hidden;
+         width: 100vw; 
+    }
+  } */
+
+
+
+ 
+ 
